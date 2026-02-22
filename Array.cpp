@@ -48,8 +48,6 @@ bool Array::DeleteAt(int index) {
         data_[i] = data_[i+1];
     }
 
-    data_[size_-1] = 0;
-
     size_--;
     return true;
 }
